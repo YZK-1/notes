@@ -1,0 +1,9 @@
+[build]
+  base = "./my-website"
+  command = "yarn build"
+  publish = "./my-website/build"
+
+[context.production]
+  base = "./my-website"
+  command = "yarn build"
+  publish = "./my-website/build"
