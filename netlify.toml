@@ -1,9 +1,8 @@
 [build]
-  base = "./my-website"
-  command = "yarn build"
-  publish = "./my-website/build"
+  base = "my-website"
+  command = "npm run build"
+  publish = "build"
+  environment = { NODE_VERSION = "20", YARN_VERSION = "1.22.19" }
 
-[context.production]
-  base = "./my-website"
-  command = "yarn build"
-  publish = "./my-website/build"
+[[plugins]]
+  package = "@netlify/plugin-functions-core"
