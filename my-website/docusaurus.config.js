@@ -23,7 +23,7 @@ const config = {
   url: 'https://yzk-1.github.io',  // Fixed the URL format
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/notes/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'YZK-1',
@@ -94,7 +94,7 @@ const config = {
               title: '文档',
               items: [
                 {
-                  label: '开始',
+                  label: '开�?,
                   to: '/docs/intro',
                 },
               ],
